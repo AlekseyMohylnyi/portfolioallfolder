@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Gaming streaming portal",
+        "poster": "01.png",
+        "project-page": "./gaming.html"
+    },
+    {
+        "title": "Video service",
+        "poster": "02.png",
+        "project-page": "./video_service.html"
+    },
+    {
+        "title": "Video portal",
+        "poster": "03.png",
+        "project-page": "./video_portal.html"
+    },
+    {
+        "title": "Dating app",
+        "poster": "04.png",
+        "project-page": "./dating_app.html"
+    },
+    {
+        "title": "Landing",
+        "poster": "05.png",
+        "project-page": "./landing.html"
+    },
+    {
+        "title": "Gaming community",
+        "poster": "06.png",
+        "project-page": "./gaming_community.html"
+    }
+]

@@ -1,0 +1,64 @@
+/* font-family: 'DM Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+.dark {
+    --text-color: var(--white);
+    --bg-color: #252526;
+    --card-border: 1px solid var(--white);
+    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.9);
+    --project-card-bg: var(--black);
+}
+
+body,
+html {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.page {
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 25px;
+}
+
+.page__title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.page__suptitle {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.page__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.page__info:not(:last-child) {
+    margin-bottom: 40px;
+}
